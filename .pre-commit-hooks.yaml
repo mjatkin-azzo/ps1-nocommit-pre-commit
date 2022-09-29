@@ -1,0 +1,6 @@
+- id: ps1-nocommit
+  name: NoCommit
+  language: script
+  entry: nocommit.ps1
+  pass_filenames: false
+  description: Check for nocommit mentions before committing
