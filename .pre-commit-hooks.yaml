@@ -2,5 +2,6 @@
   name: NoCommit
   language: script
   entry: nocommit.ps1
-  pass_filenames: false
   description: Check for nocommit mentions before committing
+  exclude: "^\\.pre-commit-config.yaml$"
+  stages: [commit]
