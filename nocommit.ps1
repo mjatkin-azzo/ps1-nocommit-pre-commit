@@ -1,4 +1,4 @@
-#!powershell.exe -File
+#!/usr/bin/env pwsh
 
 # [CmdletBinding(PositionalBinding = $false)]
 param(
